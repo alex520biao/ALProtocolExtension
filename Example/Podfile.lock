@@ -1,0 +1,20 @@
+PODS:
+  - ALProtocolExtension (0.1.0)
+  - Expecta (1.0.5)
+  - Specta (1.0.5)
+
+DEPENDENCIES:
+  - ALProtocolExtension (from `../`)
+  - Expecta
+  - Specta
+
+EXTERNAL SOURCES:
+  ALProtocolExtension:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ALProtocolExtension: 5fac68aebbba7245e78dc837815735182533c49a
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
+
+COCOAPODS: 0.39.0

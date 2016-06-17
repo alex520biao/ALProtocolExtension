@@ -40,7 +40,7 @@
 		2A02E9579D7E4A8265019C14 /* libPods-ALProtocolExtension_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALProtocolExtension_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C894FC11E0B6731E4F55C0B /* libPods-ALProtocolExtension_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALProtocolExtension_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D41FF9DBA52CF1DC69138D5 /* Pods-ALProtocolExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALProtocolExtension_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALProtocolExtension_Tests/Pods-ALProtocolExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* ALProtocolExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ALProtocolExtension.app; path = ALProtocolExtension_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* ALProtocolExtension_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALProtocolExtension_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -53,7 +53,7 @@
 		6003F5A5195388D20070C39A /* ALViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* ALViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = ALProtocolExtension_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* ALProtocolExtension_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALProtocolExtension_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -63,6 +63,7 @@
 		68BD40FE62B4E7AE239C7FA8 /* ALProtocolExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ALProtocolExtension.podspec; path = ../ALProtocolExtension.podspec; sourceTree = "<group>"; };
 		C402F124A703D2C639102268 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D955B5F11C35317B002E271A /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D960DFD31D1407E60088F1AA /* ALTestProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTestProtocol.h; sourceTree = "<group>"; };
 		F8C40346ACB66919796BC134 /* Pods-ALProtocolExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALProtocolExtension_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALProtocolExtension_Example/Pods-ALProtocolExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F8F4F10A50B2B77CF1FF9A90 /* Pods-ALProtocolExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALProtocolExtension_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALProtocolExtension_Example/Pods-ALProtocolExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,8 +120,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* ALProtocolExtension.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* ALProtocolExtension_Example.app */,
+				6003F5AE195388D20070C39A /* ALProtocolExtension_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,6 +146,7 @@
 				6003F59D195388D20070C39A /* ALAppDelegate.m */,
 				6003F5A5195388D20070C39A /* ALViewController.h */,
 				6003F5A6195388D20070C39A /* ALViewController.m */,
+				D960DFD31D1407E60088F1AA /* ALTestProtocol.h */,
 				D955B5F11C35317B002E271A /* Launch Screen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -213,7 +215,7 @@
 			);
 			name = ALProtocolExtension_Example;
 			productName = ALProtocolExtension;
-			productReference = 6003F58A195388D20070C39A /* ALProtocolExtension.app */;
+			productReference = 6003F58A195388D20070C39A /* ALProtocolExtension_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* ALProtocolExtension_Tests */ = {
@@ -234,7 +236,7 @@
 			);
 			name = ALProtocolExtension_Tests;
 			productName = ALProtocolExtensionTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* ALProtocolExtension_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
